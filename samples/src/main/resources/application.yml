@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    ## !!!这个是业务库，后面需要删除，直接走租户路由的数据库!!!
+    url: jdbc:mysql://10.43.138.190:3306/tenant1?useSSL=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    druid:
+      platform:
+        url: jdbc:mysql://10.43.138.190:3306/multi-tenant-platform?useSSL=false
+        username: root
+        password: root
+        driver-class-name: com.mysql.jdbc.Driver
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath:mapper/*.xml # 如果有Mapper XML文件的话
+
+server:
+  port: 8080
+
+tenant:
+  # 租户模式：多租户-multiTenant 单租户-singleTenant（默认）
+  model: multiTenant
