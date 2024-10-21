@@ -11,7 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @project: handson-mulit-tenant
  * @Date: 2024/10/21 16:34
  */
-@SpringBootApplication(scanBasePackages = {"com.lyflexi"})
+@SpringBootApplication
 @EnableDynamicDataSource
 public class SampleApplication {
     public static void main(String[] args) {
