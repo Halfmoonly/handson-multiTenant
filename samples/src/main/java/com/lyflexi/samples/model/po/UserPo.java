@@ -1,4 +1,4 @@
-package samples.model.po;
+package com.lyflexi.samples.model.po;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;

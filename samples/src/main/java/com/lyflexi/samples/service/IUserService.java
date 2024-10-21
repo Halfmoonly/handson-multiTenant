@@ -1,9 +1,9 @@
-package samples.service;
+package com.lyflexi.samples.service;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.IService;
-import samples.model.param.UserParam;
-import samples.model.po.UserPo;
+import com.lyflexi.samples.model.param.UserParam;
+import com.lyflexi.samples.model.po.UserPo;
 
 
 /**

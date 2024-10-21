@@ -1,7 +1,7 @@
 spring:
   datasource:
     ## !!!这个是业务库，后面需要删除，直接走租户路由的数据库!!!
-    url: jdbc:mysql://10.43.138.190:3306/xxxBiz?useSSL=false
+    url: jdbc:mysql://10.43.138.190:3306/tenant2?useSSL=false
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver

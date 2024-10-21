@@ -1,4 +1,4 @@
-package samples.model.param;
+package com.lyflexi.samples.model.param;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;

@@ -1,14 +1,14 @@
-package samples.controller;
+package com.lyflexi.samples.controller;
 
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.lyflexi.samples.form.UserForm;
+import com.lyflexi.samples.model.param.UserParam;
+import com.lyflexi.samples.model.po.UserPo;
+import com.lyflexi.samples.service.IUserService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import samples.form.UserForm;
-import samples.model.param.UserParam;
-import samples.model.po.UserPo;
-import samples.service.IUserService;
 
 /**
  * @Author: ly

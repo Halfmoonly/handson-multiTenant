@@ -1,7 +1,7 @@
-package samples.model.param;
+package com.lyflexi.samples.model.param;
 
 import lombok.Data;
-import samples.model.po.UserPo;
+import com.lyflexi.samples.model.po.UserPo;
 
 /**
  * @Author: ly

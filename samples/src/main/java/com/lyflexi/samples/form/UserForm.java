@@ -1,7 +1,7 @@
-package samples.form;
+package com.lyflexi.samples.form;
 
+import com.lyflexi.samples.model.po.UserPo;
 import lombok.Data;
-import samples.model.po.UserPo;
 
 
 /**
