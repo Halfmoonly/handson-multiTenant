@@ -12,6 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Date: 2024/10/21 16:34
  */
 @SpringBootApplication
+@MapperScan(value = "com.lyflexi.samples.dao")
 @EnableDynamicDataSource
 public class SampleApplication {
     public static void main(String[] args) {

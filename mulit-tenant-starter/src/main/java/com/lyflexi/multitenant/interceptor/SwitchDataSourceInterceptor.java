@@ -5,7 +5,7 @@ import cn.hutool.core.util.StrUtil;
 import com.baomidou.mybatisplus.core.toolkit.TableNameParser;
 import com.lyflexi.multitenant.datasource.DynamicDataSourceHolder;
 import com.lyflexi.multitenant.utils.TenantContext;
-import org.aopalliance.intercept.Interceptor;
+import org.apache.ibatis.plugin.Interceptor;
 import org.apache.ibatis.plugin.Invocation;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.ibatis.cache.CacheKey;
