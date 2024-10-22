@@ -108,7 +108,7 @@ public class DynamicDataSourceHolder {
         //pgsql
 //        druidDataSource.setUrl(tenantDataSource.getUrl() + "?currentSchema=" + tenantDataSource.getName());
         //mysql
-        druidDataSource.setUrl(tenantDataSource.getUrl());
+        druidDataSource.setUrl(tenantDataSource.getUrl()) ;
         druidDataSource.setUsername(tenantDataSource.getUserName());
         druidDataSource.setPassword(tenantDataSource.getPassword());
         druidDataSource.setMaxActive(tenantDataSource.getMaxPoolSize());
