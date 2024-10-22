@@ -21,5 +21,5 @@ CREATE TABLE `tenant_data_source` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `multi-tenant-platform`.tenant_data_source (id,name,description,url,user_name,password,driver,init_pool_size,max_pool_size,created_time,updated_time,created_by,updated_by,status,tenant_id,belong) VALUES
-	 ('1844926104935616514','tenant1','tenant1','jdbc:mysql://10.43.138.190:3306/tenant1','root','root','mysql',0,0,'2024-10-12 10:20:35.0','2024-10-12 10:21:55.0','admin','admin',1,'1844926438923849731','business'),
-	 ('1844926104935616515','tenant2','tenant2','jdbc:mysql://10.43.138.190:3306/tenant2','root','root','mysql',0,0,'2024-10-12 10:20:35.0','2024-10-12 10:21:55.0','admin','admin',1,'1844926438923849732','business');
+	 ('1844926104935616514','tenant1','tenant1','jdbc:mysql://10.43.138.190:3306/tenant1?useSSL=false','root','root','mysql',0,0,'2024-10-12 10:20:35.0','2024-10-12 10:21:55.0','admin','admin',1,'1844926438923849731','business'),
+	 ('1844926104935616515','tenant2','tenant2','jdbc:mysql://10.43.138.190:3306/tenant2?useSSL=false','root','root','mysql',0,0,'2024-10-12 10:20:35.0','2024-10-12 10:21:55.0','admin','admin',1,'1844926438923849732','business');
