@@ -65,7 +65,7 @@ import java.util.stream.Stream;
 )})
 public class SwitchDataSourceInterceptor implements Interceptor {
     private static final Logger log = LoggerFactory.getLogger(SwitchDataSourceInterceptor.class);
-    private static final List<String> WHITE_LIST = Arrays.asList("tenants", "tenant_users", "tenant_datasource", "config");
+    private static final List<String> WHITE_LIST = Arrays.asList("tenants", "tenant_users", "tenant_datasource", "tenant_data_source","config");
     @Value("${tenant.model:singleTenant}")
     private String tenantMode;
 

@@ -105,7 +105,10 @@ public class DynamicDataSourceHolder {
         DruidDataSource druidDataSource = new DruidDataSource();
         druidDataSource.setName(tenantDataSource.getName());
         druidDataSource.setDriverClassName(DBDriverEnum.getDriver(tenantDataSource.getDriver()));
-        druidDataSource.setUrl(tenantDataSource.getUrl() + "?currentSchema=" + tenantDataSource.getName());
+        //pgsql
+//        druidDataSource.setUrl(tenantDataSource.getUrl() + "?currentSchema=" + tenantDataSource.getName());
+        //mysql
+        druidDataSource.setUrl(tenantDataSource.getUrl());
         druidDataSource.setUsername(tenantDataSource.getUserName());
         druidDataSource.setPassword(tenantDataSource.getPassword());
         druidDataSource.setMaxActive(tenantDataSource.getMaxPoolSize());
