@@ -106,7 +106,7 @@
     </dependency>
     <dependency>
       <groupId>com.lyflexi</groupId>
-      <artifactId>mulit-tenant-starter</artifactId>
+      <artifactId>mulit-tenant-starter-v1</artifactId>
       <version>1.0-SNAPSHOT</version>
     </dependency>
   </dependencies>

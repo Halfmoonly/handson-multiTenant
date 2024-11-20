@@ -3,14 +3,13 @@ spring:
     # The bean 'dataSource', defined in class path resource [com/lyflexi/multitenant/config/DynamicDataSourceConfig.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class] and overriding is disabled.
     allow-bean-definition-overriding: true
   datasource:
-    ## !!!这个是业务库，后面需要删除，直接走租户路由的数据库!!!
     url: jdbc:mysql://10.43.138.190:3306/xxx?useSSL=false
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
     druid:
       platform:
-        url: jdbc:mysql://10.43.138.190:3306/multi-tenant-platform?useSSL=false
+        url: jdbc:mysql://10.43.138.190:3306/xxx?useSSL=false
         username: root
         password: root
         driver-class-name: com.mysql.jdbc.Driver
