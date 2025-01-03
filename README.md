@@ -1,4 +1,4 @@
-# handson-mulit-tenant
+# handson-multiTenant
 实现思路：
 
 1. 实现了不同数据源的动态配置与维护，支持MySQL/PostgreSql
